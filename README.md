@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![carlograsso](https://circleci.com/gh/carlograsso/Project-Operationalize-ml-microservices/tree/main.svg?style=svg)](https://circleci.com/gh/carlograsso/Project-Operationalize-ml-microservices/tree/main)
 
 ## Project Overview
 
