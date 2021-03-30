@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=carlograss92/ml-microserv
 
 # Step 2:  
 # Authenticate & tag
+tag=latest
 echo "Docker ID and Image: $dockerpath"
-
+docker login -u carlograss92
+docker tag ml-microserv $dockerpath:$tag
 # Step 3:
-# Push image to a docker repository
+docker push $dockerpath

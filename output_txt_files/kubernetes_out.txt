@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+[brajang@unknown-tk Project-Operationalize-ml-microservices]$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "ml-micro" already exists
+NAME       READY   STATUS    RESTARTS   AGE
+ml-micro   1/1     Running   0          3m23s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000

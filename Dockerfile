@@ -9,7 +9,7 @@ COPY . model_data /app/
 
 ## Step 3:
 RUN pip install --upgrade pip==21.0.1 &&\
-    pip install -r  requirements.txt
+    pip install --trusted-host pypi.python.org -r  requirements.txt
 # hadolint ignore=DL3013
 
 ## Step 4:
